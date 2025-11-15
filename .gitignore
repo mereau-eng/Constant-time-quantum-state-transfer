@@ -1,0 +1,61 @@
+# Python files - ignore all new Python scripts
+*.py
+!timelean_arrival_scan.py
+!final_verification.py
+!validate_physics.py
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data and output files
+*.csv
+!timelean_arrival_summary.csv
+*.dat
+*.txt
+*.json
+*.hdf5
+*.h5
+*.npy
+*.npz
+
+# Plots and figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.eps
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Any local testing or scratch directories
+local/
+scratch/
+test_output/
+results/
